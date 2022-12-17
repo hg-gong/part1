@@ -6,7 +6,7 @@ import Ctree from './Ctree'
 function App() {
   return (
     <div class="App">Lwtoom Personal Space
-      <Ctree />
+      {/* <Ctree /> */}
     </div>
   );
 }
