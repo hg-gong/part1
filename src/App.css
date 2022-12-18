@@ -1,0 +1,30 @@
+body {
+  background: #dcdcdc;
+}
+
+.main {
+  display: grid;
+  height: 100vh;
+  width: auto;
+  animation: loading 0.5s linear;
+}
+
+@keyframes loading {
+  from {
+    scale: 0;
+    -webkit-transform: scale(0);
+  }
+
+  to {
+    scale: 1;
+    -webkit-transform: scale(1);
+  }
+}
+
+.test{
+  height: 100%;
+}
+
+.link{
+  font-family: Tahoma, sans-serif;
+}
