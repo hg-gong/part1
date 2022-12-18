@@ -1,15 +1,11 @@
 import React from 'react';
 import './App.css';
-import sketch from './sketch';
-import p5 from 'p5';
 import Card from "./Card"
 import Game from "./Game"
 import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Switch,
-  Navigate
 } from "react-router-dom";
 import { Link } from 'react-router-dom';
 
